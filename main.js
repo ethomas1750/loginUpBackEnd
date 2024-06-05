@@ -12,6 +12,7 @@ const password3 = "supToThis"
 
 
 // **YOUR** code below. Pass those tests!
+
 function isValidEmail(str){
   if (str.indexOf(".prsvr@gmail.com") >= 1){
    return true
@@ -31,6 +32,7 @@ function isValidPassword(str){
   } else {
     return true
   }
+  
   }
   function isRegisteredUser(str){
     if (str === user1){
@@ -54,9 +56,6 @@ function isValidPassword(str){
       return false
     }
     }
-  
-
-
 
 // Our code below. Do not touch!
 
